@@ -1,0 +1,32 @@
+#header{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0px 80px;
+}
+.name{
+    display: flex;
+    padding-right: 65%;
+    gap: 10px;
+}
+.name2{
+    color: rgb(144, 12, 63 );
+}
+
+.home{
+    text-decoration: underline;
+    color: rgb(144, 12, 63 );
+}
+
+#main{
+    height: 560px;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 0px 0px 60px;
+}
