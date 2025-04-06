@@ -13,20 +13,28 @@
     gap: 10px;
 }
 .name2{
-    color: rgb(144, 12, 63 );
+    color: red;
 }
 
 .home{
     text-decoration: underline;
-    color: rgb(144, 12, 63 );
+    color: red;
 }
 
-#main{
+main{
     height: 560px;
-    background-color: aqua;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    gap: 40px;
-    padding: 0px 0px 0px 60px;
+    gap: 50px;
+    padding: 0px 70px 0px 70px;
+}
+.main-separator{
+    width: 50%;
+    background: lightblue;
+    display: inline-block
+}
+.img{
+    width: 50%;
+    background: orange;
+    display: inline-block
 }
