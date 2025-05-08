@@ -8,16 +8,17 @@
     padding: 0px 80px;
 }
 .name{
+    font-size: 20px;
     display: flex;
     padding-right: 65%;
-    gap: 10px;
 }
 .name2{
     color: red;
 }
 
-.home{
-    text-decoration: underline;
+.home b{
+    text-decoration: none;
+    font-weight: bold;
     color: red;
 }
 
@@ -29,12 +30,24 @@ main{
     padding: 0px 70px 0px 70px;
 }
 .main-separator{
+    padding-top: 60px;
+    height: 70%;
     width: 50%;
-    background: lightblue;
-    display: inline-block
+    display: inline-block;
+}
+.main-separator-title{
+    padding-bottom: 15px;
+}
+.main-separator-title h1 b{
+    font-weight: bold;
+    color: red;
+}
+.contacts{
+    padding-bottom: 10px;
 }
 .img{
+    height: 80%;
     width: 50%;
     background: orange;
-    display: inline-block
+    display: inline-block;
 }
