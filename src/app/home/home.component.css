@@ -5,6 +5,7 @@
 }
 
 nav{
+    padding-top: 20px;
     width: 100%;
     height: 8vh;
     background: black;
@@ -13,33 +14,36 @@ nav{
     align-items: center;
 }
 
+b{
+    color: rgba(5, 119, 66, 0.87);
+}
+
 .title{
-    padding-right: 570px;
+    padding-right: 630px;
     font-size: 22px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 1px;
-}
-
-.title b{
-    color: red;
-
 }
 
 .nav-items{
     width: 445px;
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 100px;
 
     li{
         display: flex;
         list-style: none;
     }
-}
 
-.nav-items b{
-    color: red;
+    a{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    a:hover{
+        opacity: 0.7;
+    }
 }
 
 a{
@@ -49,7 +53,7 @@ a{
 
 
 main{
-    background: rgb(1, 1, 1);
+    background: black;
     height: 566px;
     display: flex;
     align-items: center;
@@ -58,7 +62,7 @@ main{
 }
 
 .main-separator{
-    padding-top: 60px;
+    padding-top: 90px;
     height: 70%;
     width: 60%;
     display: inline-block;
@@ -70,20 +74,21 @@ main{
         font-size: 50px;
     }
 
-    h1 b{
-        font-weight: bold;
-        color: red;    
-    }
-
     ul{
         display: flex;
         padding-left: 20px;
         gap: 25px;
     }
 
+    li{
+        transition: transform .2s;
+    }
+
     li:hover{
         cursor: default;
-        opacity: 50%;
+        color: rgba(5, 119, 66, 0.87);
+        opacity: 2;
+        transform: scale(1.1);
     }
     
 }
@@ -91,7 +96,13 @@ main{
     padding-bottom: 20px;
 }
 
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+
 .contacts{
+    padding-top: 5px;
     display: flex;
     gap:15px;
     padding-bottom: 10px;
@@ -103,29 +114,39 @@ main{
     text-decoration: none;
     color: white;
     padding-bottom: 30px;
+    transition: transform .2s;
 }
 .fa:hover{
     cursor: pointer;
-    opacity: 0.7
+    opacity: 0.7;
+    transform: scale(1.1);
 }
 
 button{
     border-radius: 100px;
     height: 40px;
     width: 120px;
-    background-color: red;
+    background-color: rgba(5, 119, 66, 0.87);;
     border: none;
 }
 
 button:hover{
     cursor: pointer;
-    background: linear-gradient(to right, rgb(100,0,0));
+    opacity: 0.7;
 
 }
 
 .img{
     height: 70%;
     width: 40%;
-    background-color: red;
     display: inline-block;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 60%;
+    filter: drop-shadow(0 0 0.75rem rgba(5, 119, 66, 0.87));
 }
