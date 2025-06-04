@@ -8,7 +8,7 @@ nav{
 }
 
 b{
-    color: rgba(5, 119, 66, 0.87);
+    color:blueviolet;
 }
 
 .title{
@@ -78,7 +78,7 @@ main{
 
     li:hover{
         cursor: default;
-        color: rgba(5, 119, 66, 0.87);
+        color:blueviolet;
         opacity: 2;
         transform: scale(1.1);
     }
@@ -100,15 +100,15 @@ main{
     padding-bottom: 10px;
 }
 
-.fa{
-    font-size: 25px;
+.fa-brands{
+    font-size: 20px;
     width: 50px;
     text-decoration: none;
     color: white;
     padding-bottom: 30px;
     transition: transform .2s;
 }
-.fa:hover{
+.fa-brands:hover{
     cursor: pointer;
     opacity: 0.7;
     transform: scale(1.1);
@@ -118,7 +118,7 @@ button{
     border-radius: 100px;
     height: 40px;
     width: 120px;
-    background-color: rgba(5, 119, 66, 0.87);;
+    background-color: blueviolet;
     border: none;
 
     a{
@@ -144,5 +144,5 @@ button:hover{
     border-radius: 50%;
     object-fit: cover;
     object-position: 0 60%;
-    filter: drop-shadow(0 0 0.75rem rgba(5, 119, 66, 0.87));
+    filter: drop-shadow(0 0 0.75rem blueviolet);
 }
