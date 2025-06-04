@@ -1,14 +1,7 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 nav{
     padding-top: 20px;
     width: 100%;
     height: 8vh;
-    background: black;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -53,7 +46,6 @@ a{
 
 
 main{
-    background: black;
     height: 566px;
     display: flex;
     align-items: center;
@@ -128,6 +120,10 @@ button{
     width: 120px;
     background-color: rgba(5, 119, 66, 0.87);;
     border: none;
+
+    a{
+        background-color: transparent;
+    }
 }
 
 button:hover{
@@ -138,7 +134,7 @@ button:hover{
 
 .img{
     height: 70%;
-    width: 40%;
+    width: 35%;
     display: inline-block;
 }
 

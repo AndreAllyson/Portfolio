@@ -1,103 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
-</head>
-<body>
-    
-    <header>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Document</title>
+    </head>
+
+    <!-- MOSTRAR UM BOTÃO QUE MOSTRA AS INTERAÇÕES DISPONÍVEIS NO SITE  -->
+
+    <body>
         
-        <nav>
+        <header>
+            
+            <nav>
 
-            <a class="title"  href="/">Portfolio.</a>
+                <a class="title"  href="/">Resume.</a>
 
-            <ul class="nav-items">
-                <li><a href="/" ><b>Home</b></a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">To Learn</a></li>
-                <li><a href="#"><b>AI</b></a></li>
-            </ul>
+                <ul class="nav-items">
 
-        </nav>
+                    <li><a href="/"><b>Home</b></a></li>
 
-    </header>
+                    <li><a href="#">About</a></li>
 
+                    <li><a href="#">Projects</a></li>
 
-
-
-    <main>
-
-        <div class="main-separator">
-
-            <div class="main-separator-title">
-
-                <h1>Hi, It's <b>Allyson</b></h1>
-
-                <ul>
-
-                    <li>Know who I'm</li>
-                    <li>Projects</li>
-                    <li>Educations</li>
-                    <li>Learning</li>
-                    <li>Much more</li>
+                    <li><a href="#">To Learn</a></li>
+                    
+                    <li><a href="#"><b>AI</b></a></li>
 
                 </ul>
 
-            </div>
+            </nav>
 
-            <div class="main-separator-text">
+        </header>
 
-                <h4>
-                
-                    <p>
-                        
-                        I'm looking for formate a new habits and this web site it's one of my task to improovement on programming. I'm trying to modify this site every day, with the exception of Saturday. It's so dificult to me, but i'll not give up. I'm gonna make a lot of contribuitions to society, i hope.
 
-                    </p>
+
+
+        <main>
+
+            <div class="main-separator">
+
+                <div class="main-separator-title">
+
+                    <h1>Hi, It's <b>Allyson</b></h1>
+
+                    <ul>
+
+                        <li>Know who I'm</li>
+                        <li>Projects</li>
+                        <li>Educations</li>
+                        <li>Learning</li>
+                        <li>Much more</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="main-separator-text">
+
+                    <h4>
                     
-                </h4>
+                        <p>
+                            
+                            I'm looking for formate a new habits and this web site it's one of my task to improovement on programming. I'm trying to modify this site every day, with the exception of Saturday. It's so dificult to me, but i'll not give up. I'm gonna make a lot of contribuitions to society, i hope.
 
-            </div>
-
-            <div class="buttons">
-
-                <div class="current-studies-button">
-
-                        <button>
-                            Download CV
-                        </button>
-                </div>
-
-                <div class="contacts">
-
-                    <img src="" class="fa fa-linkedin">
-                    <img src="" class="fa fa-github">
-                    <img src="" class="fa fa-instagram">
-                    <img src="" class="fa fa-twitter">
+                        </p>
+                        
+                    </h4>
 
                 </div>
 
+                <div class="buttons">
+
+                    <div class="current-studies-button">
+
+                            <button>
+
+                                <a href="/assets/AllysonCurriculo.pdf" download>Download CV</a>
+                                
+                            </button>
+                    </div>
+
+                    <div class="contacts">
+
+
+                        <a href="https://www.linkedin.com/in/allysonalbuquerque/" target="_blank">
+
+                            <img src="" class="fa fa-linkedin">
+
+                        </a>
+
+                        <!-- Não está funcionando | não está sendo encaminhado | será esse o motivo do estar mostrando um ícone de uma página vazia ao lado das img's?  -->
+                        <a href="https://github.com/AndreAllyson" target="_blank">
+
+                            <img src="" class="fa fa-github">
+
+                        </a>
+
+                        <!-- Não está funcionando | não está sendo encaminhado | será esse o motivo do estar mostrando um ícone de uma página vazia ao lado das img's?  -->
+                        <a href="https://www.instagram.com/anndreallyson/" target="_blank">
+
+                            <img src="" class="fa fa-instagram">
+
+                        </a>
+
+                        <!-- Não está funcionando | não está sendo encaminhado | será esse o motivo do estar mostrando um ícone de uma página vazia ao lado das img's?  -->
+
+                        <a href="https://x.com/AndrAllyso69379" target="_blank">
+                            
+                            <img src="" class="fa fa-twitter">
+
+                        </a>
+
+                        <!-- Deve ser por conta que é uma imagem que está esperando uma foto dentro do arquivo de um projeto e não uma âncora que vai levar à outra página -->
+
+                        <!-- Por esse motivo é necessário por uma âncora!!! -->
+
+                    </div>
+
+                </div>
 
             </div>
 
-        </div>
+            <div class="img">
+                
+                <!--Imagem não está sendo renderizada | Resolvido -> /assets/img.jpeg ; colocar a raiz em que a foto se encontra, sem a necessidade de descrever todo o caminho até chegar à raiz-->
+                <img src="/assets/imgPerfil.jpeg" alt="">
 
-        <div class="img">
-            
-            <img src="/assets/imgPerfil.jpeg" alt=""><!--Imagem não está sendo renderizada-->
-
-        </div>
-            
-    </main>
+            </div>
+                
+        </main>
 
 
-    <footer>
+        <footer>
 
-    </footer>
+        </footer>
 
-</body>
+    </body>
 </html>
